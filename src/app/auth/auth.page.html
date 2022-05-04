@@ -38,6 +38,9 @@
           <ion-button type="submit" color="primary" (click)="onLogin()" expand="block" [disabled]="!f.valid">Login</ion-button>
         </ion-col>
       </ion-row>
+      <ion-row class="isLoading" *ngIf="isLoading">
+        <ion-col>Loading...</ion-col>
+      </ion-row>
     </ion-grid>
   </form>
 </ion-content>
