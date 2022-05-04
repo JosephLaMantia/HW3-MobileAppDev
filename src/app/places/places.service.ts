@@ -9,27 +9,27 @@ export class PlacesService {
   private _places: Place[] = [
     new Place(
       'p1',
-      'Manhattan Mansion',
-      'In the heart of New York City.',
-      'https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200',
-      149.99,
+      'Riu Cancun',
+      'Live it up in Cancun',
+      'https://www.riu.com/blog/wp-content/uploads/2018/07/XLA_16_002-USP.jpg',
+      199.99,
       new Date('2022-01-01'),
       new Date('2022-12-31')
     ),
     new Place(
       'p2',
-      'L\'Amour Toujours',
-      'A romantic place in Paris!',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/1024px-Paris_Night.jpg',
+      'Hotel Paradisus Punta Cana',
+      'Kick back at the pool in DR!',
+      'https://www.oyster.com/wp-content/uploads/sites/35/2019/05/pool-v2255525-1440-1024x683.jpg',
       189.99,
       new Date('2022-01-01'),
       new Date('2022-12-31')
     ),
     new Place(
       'p3',
-      'The Foggy Palace',
-      'Not your average city trip!',
-      'https://upload.wikimedia.org/wikipedia/commons/0/01/San_Francisco_with_two_bridges_and_the_fog.jpg',
+      'Pod 51 NYC',
+      'Ever stayed in the city that never sleeps?',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/85/b2/3d/pod-51-hotel.jpg?w=900&h=-1&s=1',
       99.99,
       new Date('2022-01-01'),
       new Date('2022-12-31')
